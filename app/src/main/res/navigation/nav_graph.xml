@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/goRestListFragment">
+
+    <fragment
+        android:id="@+id/goRestListFragment"
+        android:name="com.example.kooappassignment.list.GoRestListFragment"
+        android:label="Posts"
+        tools:layout="@layout/list_fragment_layout">
+        <action
+            android:id="@+id/action_goRestListFragment_to_goRestDetailsFragment"
+            app:destination="@id/goRestDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/goRestDetailsFragment"
+        android:name="com.example.kooappassignment.details.GoRestDetailsFragment"
+        android:label="Details">
+        <argument
+            android:name="data"
+            app:argType="com.example.kooappassignment.data.Data" />
+    </fragment>
+</navigation>
