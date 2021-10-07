@@ -1,4 +1,4 @@
-package com.example.kooappassignment.data
+package com.example.sampleapp.data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

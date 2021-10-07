@@ -1,6 +1,6 @@
-package com.example.kooappassignment.di
+package com.example.sampleapp.di
 
-import com.example.kooappassignment.api.GoRestApi
+import com.example.sampleapp.api.GoRestApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

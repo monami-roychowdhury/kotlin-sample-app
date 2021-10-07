@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/goRestListFragment"
-        android:name="com.example.kooappassignment.list.GoRestListFragment"
+        android:name="com.example.sampleapp.list.GoRestListFragment"
         android:label="Posts"
         tools:layout="@layout/list_fragment_layout">
         <action
@@ -16,10 +16,10 @@
     </fragment>
     <fragment
         android:id="@+id/goRestDetailsFragment"
-        android:name="com.example.kooappassignment.details.GoRestDetailsFragment"
+        android:name="com.example.sampleapp.details.GoRestDetailsFragment"
         android:label="Details">
         <argument
             android:name="data"
-            app:argType="com.example.kooappassignment.data.Data" />
+            app:argType="com.example.sampleapp.data.Data" />
     </fragment>
 </navigation>

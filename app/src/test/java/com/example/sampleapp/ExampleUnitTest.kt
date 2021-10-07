@@ -1,4 +1,4 @@
-package com.example.kooappassignment
+package com.example.sampleapp
 
 import org.junit.Test
 

@@ -1,9 +1,9 @@
-package com.example.kooappassignment.data
+package com.example.sampleapp.data
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.liveData
-import com.example.kooappassignment.api.GoRestApi
+import com.example.sampleapp.api.GoRestApi
 import javax.inject.Inject
 import javax.inject.Singleton
 

@@ -1,12 +1,12 @@
-package com.example.kooappassignment.list
+package com.example.sampleapp.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kooappassignment.data.Data
-import com.example.kooappassignment.databinding.ListItemLayoutBinding
+import com.example.sampleapp.data.Data
+import com.example.sampleapp.databinding.ListItemLayoutBinding
 
 class GoRestDataAdapter(private val listener: OnItemClickListener) :
     PagingDataAdapter<Data, GoRestDataAdapter.DataViewHolder>(DATA_COMPARATOR) {

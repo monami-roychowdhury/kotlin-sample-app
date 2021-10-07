@@ -1,8 +1,8 @@
-package com.example.kooappassignment
+package com.example.sampleapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class KooAppApplication : Application() {
+class KotlinSampleApplication : Application() {
 }

@@ -1,13 +1,9 @@
-package com.example.kooappassignment.list
+package com.example.sampleapp.list
 
 import androidx.lifecycle.*
-import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import androidx.paging.map
-import com.example.kooappassignment.data.Data
-import com.example.kooappassignment.data.GoRestRepository
+import com.example.sampleapp.data.GoRestRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,6 +1,5 @@
-package com.example.kooappassignment.api
+package com.example.sampleapp.api
 
-import com.example.kooappassignment.api.ApiResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

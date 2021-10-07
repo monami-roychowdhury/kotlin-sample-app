@@ -1,6 +1,4 @@
-package com.example.kooappassignment.data
-
-import com.example.kooappassignment.data.Links
+package com.example.sampleapp.data
 
 data class Pagination(
     val limit: Int,

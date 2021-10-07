@@ -1,11 +1,11 @@
-package com.example.kooappassignment.details
+package com.example.sampleapp.details
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
-import com.example.kooappassignment.R
-import com.example.kooappassignment.databinding.DetailsFragmentLayoutBinding
+import com.example.sampleapp.R
+import com.example.sampleapp.databinding.DetailsFragmentLayoutBinding
 
 class GoRestDetailsFragment : Fragment(R.layout.details_fragment_layout) {
     private val args by navArgs<GoRestDetailsFragmentArgs>()

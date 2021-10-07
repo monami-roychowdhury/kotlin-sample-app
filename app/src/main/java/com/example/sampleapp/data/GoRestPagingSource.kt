@@ -1,8 +1,8 @@
-package com.example.kooappassignment.data
+package com.example.sampleapp.data
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.kooappassignment.api.GoRestApi
+import com.example.sampleapp.api.GoRestApi
 import retrofit2.HttpException
 
 private const val STARTING_PAGE_INDEX = 1

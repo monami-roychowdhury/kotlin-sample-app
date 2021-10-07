@@ -1,13 +1,13 @@
-package com.example.kooappassignment.list
+package com.example.sampleapp.list
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.kooappassignment.R
-import com.example.kooappassignment.data.Data
-import com.example.kooappassignment.databinding.ListFragmentLayoutBinding
+import com.example.sampleapp.R
+import com.example.sampleapp.data.Data
+import com.example.sampleapp.databinding.ListFragmentLayoutBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

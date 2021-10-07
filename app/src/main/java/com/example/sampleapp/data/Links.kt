@@ -1,4 +1,4 @@
-package com.example.kooappassignment.data
+package com.example.sampleapp.data
 
 data class Links(
     val current: String,
